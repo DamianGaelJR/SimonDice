@@ -1,0 +1,27 @@
+# --- Arduino ---
+*.tmp
+*.hex
+*.bin
+*.elf
+*.map
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# --- Logs ---
+*.log
+
+# --- Secrets / Credentials ---
+credenciales.json
+
+# --- Dataset (opcional) ---
+# Si quieres versionar el dataset, comenta esta línea.
+simon_dice_dataset.csv
+
